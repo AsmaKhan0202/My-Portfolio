@@ -1,0 +1,184 @@
+      *
+      {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      body
+      {
+        margin: 0;
+        background-color: rgb(10, 3, 66);
+        color: white;
+        width: 100%;
+        font-family: 'poppins',sans-serif;
+      }
+      nav
+      {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 80px;
+        width: 100%;
+        background-color: rgb(14, 37, 112);
+      }
+      nav ul
+      {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li
+      {
+        list-style: none;
+        margin: 0px 23px;
+      }
+      .left
+      {
+        font-size: 1.5rem;
+      }
+      .left :hover
+      {
+        font-size: 1.8rem;
+        color: blueviolet;
+      }
+      .first-Section
+      {
+        display: flex;
+        justify-content: space-around;
+        margin: 0px 23px;
+      }
+      .left-Section
+      {
+        width: 30%;
+        margin-top: 80px;
+        font-size: 2.5rem;
+      }
+      .Right-Section
+      {
+        width: 30%;
+        margin-top: 80px;
+      }
+      .highlight
+      {
+        color: blueviolet;
+      }
+      nav ul li a
+      {
+        text-decoration: none;
+        color: white;
+      }
+       nav ul li a:hover
+      {
+        color:blueviolet;
+        font-size: 1.2rem;
+      }
+      main hr
+      {
+        border: 0px;
+        height: 1.5px;
+        background-color: rgb(121, 16, 206);
+        margin: 10px 84px;
+      }
+      #element
+      {
+        color: blueviolet;
+      }
+      .Second-Section
+      {
+       margin-left: 155px;
+       margin-top: 0px;
+      }
+       .Second-Section h1
+      {
+       color: blueviolet;
+      }
+      .text-gray
+      {
+        color: gray;
+        margin-left: 155px;
+      }
+      .para
+      {
+        margin-left: 150px;
+        color: blueviolet;
+      }
+      .btn
+      {
+        margin-left: 155px;
+        margin-top: 20px;
+        padding: 10px 20px;
+        font-size: 1.2rem;
+        background-color: blueviolet;
+        color: white;
+        border: inset;
+        border-radius: 10px;
+      }
+      button a
+      {
+        text-decoration: none;
+        color: white;
+      }
+      .footer
+      {
+        height: 150px;
+        width: 100%;
+        background-color: rgb(14,37,112);
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-evenly;
+      }
+      .footer ul li
+      {
+        list-style: none;
+      }
+      .footer ul li a
+      {
+        color: white;
+        text-decoration: none;
+      }
+      .footer ul li a:hover
+      {
+        color: blueviolet;
+        font-size: 20px;
+      }
+       .footer-first h3
+      {
+        font-size: 1.5rem;
+        padding: 20px;
+      }
+      .footer-first h3:hover
+      {
+        font-size: 1.6rem;
+        color: blueviolet;
+      }
+
+      /* modify for responce */
+      .container{
+        width: 100%;
+        margin: auto;
+        padding: 0 15 px;
+      }
+
+      header nav{
+        width: 100%;
+      }
+      @media screen and (max-width: 768px) {
+        nav{
+          flex-direction: column;
+          align-items: flex-start;
+        }
+      }
+      @media screen and (max-width: 768px) {
+        .main{
+          flex-direction: column;
+        }
+      }
+      .left-Section{
+        flex: 1;
+      }
+      .Right-Section{
+        flex: 1;
+      }
+      .Right-Section img{
+        width : 100%;
+        height: auto;
+      }
