@@ -59,6 +59,9 @@ This portfolio website was created to:
 * Highlight my services and achievements
 * Provide recruiters and visitors with a professional overview of my work
 
+## Screenshots
+![image alt]()
+
 ## 💻 Installation
 
 Clone the repository:
