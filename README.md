@@ -60,7 +60,7 @@ This portfolio website was created to:
 * Provide recruiters and visitors with a professional overview of my work
 
 ## Screenshots
-![image alt]()
+![image alt](https://github.com/AsmaKhan0202/My-Portfolio/blob/main/Screenshot%20(313).png?raw=true)
 
 ## 💻 Installation
 
